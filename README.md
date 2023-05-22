@@ -1,6 +1,15 @@
 # UnsplashImageLoader
 ### An example app written in SwiftUI for displaying images from Unsplash API and displaying in Grid.
 
+## Key Features: 
+ 1.  Async Await for fetching/server communication.
+ 2.  Pagination on LazyGrid.
+ 3.  Searching via keywords.
+ 4.  Combine and Task api implementation.
+ 5.  Download and save images into device Photo album.
+ 6.  Pure Swift UI Code.
+ 7.  searchable used for searchbar ui.
+
 
 
 ### API KEY
