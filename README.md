@@ -2,6 +2,11 @@
 ### An example app written in SwiftUI for displaying images from Unsplash API and displaying in Grid.
 
 
+### API KEY
+ Create an account under [unsplash.com](https://unsplash.com) and generate a new API Key on https://unsplash.com/oauth/applications
+ 
+ Open APIKey.swift file and add you API key
+ 
 ## SCREENS
 
 #### HOME
@@ -16,4 +21,3 @@
 ##### IMAGE DETAIL AND SAVE/DOWNLOAD 
 ![image_detail](https://github.com/Gagan5278/UnsplashImageLoader/assets/2304583/a2ac5f63-87aa-4e6e-b6fb-1b83ab4deec2)
 
-### API KEY
