@@ -15,7 +15,7 @@
 ### API KEY
  Create an account under [unsplash.com](https://unsplash.com) and generate a new API Key on https://unsplash.com/oauth/applications
  
- Open APIKey.swift file and add you API key
+ Open APIKey.swift file and add your API key
 
 ## SCREENS
 
