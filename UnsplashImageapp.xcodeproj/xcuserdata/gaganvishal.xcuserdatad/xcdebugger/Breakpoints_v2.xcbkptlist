@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "D6C7B05A-F827-4043-91A1-02A5082F3696"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F50E4CCD-C66C-4F9D-83B0-2721A79E72C3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UnsplashImageapp/PhotoDetail/ViewModel/PhotoDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "downloadPhoto()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F50E4CCD-C66C-4F9D-83B0-2721A79E72C3 - 92f9382342939cf7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in UnsplashImageapp.PhotoDetailViewModel.downloadPhoto() -&gt; ()"
+                  moduleName = "UnsplashImageapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gaganvishal/Documents/SwiftUI/UnspalashGridSearch/UnsplashImageapp/UnsplashImageapp/PhotoDetail/ViewModel/PhotoDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "316">
+               </Location>
+               <Location
+                  uuid = "F50E4CCD-C66C-4F9D-83B0-2721A79E72C3 - 92f9382342939cf7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in UnsplashImageapp.PhotoDetailViewModel.downloadPhoto() -&gt; ()"
+                  moduleName = "UnsplashImageapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gaganvishal/Documents/SwiftUI/UnspalashGridSearch/UnsplashImageapp/UnsplashImageapp/PhotoDetail/ViewModel/PhotoDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "444">
+               </Location>
+               <Location
+                  uuid = "F50E4CCD-C66C-4F9D-83B0-2721A79E72C3 - 92f9382342939cf7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in UnsplashImageapp.PhotoDetailViewModel.downloadPhoto() -&gt; ()"
+                  moduleName = "UnsplashImageapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gaganvishal/Documents/SwiftUI/UnspalashGridSearch/UnsplashImageapp/UnsplashImageapp/PhotoDetail/ViewModel/PhotoDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "336">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3855C1FA-61FD-43C3-AA23-288327230332"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UnsplashImageapp/PhotoDetail/ViewModel/PhotoDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "downloadPhoto()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3855C1FA-61FD-43C3-AA23-288327230332 - 92f9382342939dbd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in UnsplashImageapp.PhotoDetailViewModel.downloadPhoto() -&gt; ()"
+                  moduleName = "UnsplashImageapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gaganvishal/Documents/SwiftUI/UnspalashGridSearch/UnsplashImageapp/UnsplashImageapp/PhotoDetail/ViewModel/PhotoDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "348">
+               </Location>
+               <Location
+                  uuid = "3855C1FA-61FD-43C3-AA23-288327230332 - 74ddf51d4c18f3ba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in UnsplashImageapp.PhotoDetailViewModel.downloadPhoto() -&gt; ()"
+                  moduleName = "UnsplashImageapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gaganvishal/Documents/SwiftUI/UnspalashGridSearch/UnsplashImageapp/UnsplashImageapp/PhotoDetail/ViewModel/PhotoDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "3855C1FA-61FD-43C3-AA23-288327230332 - 74ddf51d4c18f39d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in UnsplashImageapp.PhotoDetailViewModel.downloadPhoto() -&gt; ()"
+                  moduleName = "UnsplashImageapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gaganvishal/Documents/SwiftUI/UnspalashGridSearch/UnsplashImageapp/UnsplashImageapp/PhotoDetail/ViewModel/PhotoDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "124">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "662E8A70-0E0A-4085-817F-A018303DDD75"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UnsplashImageapp/PhotoDetail/View/PhotoDetailView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "918E0DF9-C266-4FB9-AC8D-39B66DA50511"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UnsplashImageapp/PhotoDetail/View/PhotoDetailView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "getImageIcon(for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "918E0DF9-C266-4FB9-AC8D-39B66DA50511 - cf1b31de7c450724"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UnsplashImageapp.PhotoDetailView.getImageIcon(for: UnsplashImageapp.PhotoDetailViewModel.DownloadImageState) -&gt; some"
+                  moduleName = "UnsplashImageapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gaganvishal/Documents/SwiftUI/UnspalashGridSearch/UnsplashImageapp/UnsplashImageapp/PhotoDetail/View/PhotoDetailView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "1236">
+               </Location>
+               <Location
+                  uuid = "918E0DF9-C266-4FB9-AC8D-39B66DA50511 - cf1b31de7c450745"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UnsplashImageapp.PhotoDetailView.getImageIcon(for: UnsplashImageapp.PhotoDetailViewModel.DownloadImageState) -&gt; some"
+                  moduleName = "UnsplashImageapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gaganvishal/Documents/SwiftUI/UnspalashGridSearch/UnsplashImageapp/UnsplashImageapp/PhotoDetail/View/PhotoDetailView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "1236">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F8E8F36B-4DC4-4287-81DD-4361ECAD2387"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UnsplashImageapp/PhotoDetail/View/PhotoDetailView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "getImageIcon(for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F8E8F36B-4DC4-4287-81DD-4361ECAD2387 - cf1b31de7c450498"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UnsplashImageapp.PhotoDetailView.getImageIcon(for: UnsplashImageapp.PhotoDetailViewModel.DownloadImageState) -&gt; some"
+                  moduleName = "UnsplashImageapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gaganvishal/Documents/SwiftUI/UnspalashGridSearch/UnsplashImageapp/UnsplashImageapp/PhotoDetail/View/PhotoDetailView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "93"
+                  endingLineNumber = "93"
+                  offsetFromSymbolStart = "1924">
+               </Location>
+               <Location
+                  uuid = "F8E8F36B-4DC4-4287-81DD-4361ECAD2387 - cf1b31de7c4504b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UnsplashImageapp.PhotoDetailView.getImageIcon(for: UnsplashImageapp.PhotoDetailViewModel.DownloadImageState) -&gt; some"
+                  moduleName = "UnsplashImageapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gaganvishal/Documents/SwiftUI/UnspalashGridSearch/UnsplashImageapp/UnsplashImageapp/PhotoDetail/View/PhotoDetailView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "1924">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "28E7A41A-A269-42DE-A21F-C2A0AB532A1E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UnsplashImageapp/PhotoDetail/View/PhotoDetailView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "getImageIcon(for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "28E7A41A-A269-42DE-A21F-C2A0AB532A1E - cf1b31de7c4507e2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UnsplashImageapp.PhotoDetailView.getImageIcon(for: UnsplashImageapp.PhotoDetailViewModel.DownloadImageState) -&gt; some"
+                  moduleName = "UnsplashImageapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gaganvishal/Documents/SwiftUI/UnspalashGridSearch/UnsplashImageapp/UnsplashImageapp/PhotoDetail/View/PhotoDetailView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "460">
+               </Location>
+               <Location
+                  uuid = "28E7A41A-A269-42DE-A21F-C2A0AB532A1E - cf1b31de7c4507e2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UnsplashImageapp.PhotoDetailView.getImageIcon(for: UnsplashImageapp.PhotoDetailViewModel.DownloadImageState) -&gt; some"
+                  moduleName = "UnsplashImageapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gaganvishal/Documents/SwiftUI/UnspalashGridSearch/UnsplashImageapp/UnsplashImageapp/PhotoDetail/View/PhotoDetailView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "524">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "71FA1958-91B0-4787-A3A5-EB2B5F7BBF18"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UnsplashImageapp/PhotoDetail/ViewModel/PhotoDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "downloadPhoto()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
