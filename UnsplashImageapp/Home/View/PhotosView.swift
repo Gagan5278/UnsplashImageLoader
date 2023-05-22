@@ -17,11 +17,7 @@ struct PhotosView: View {
                 .ignoresSafeArea()
                 switch photosViewModel.loadingState {
                 case .loading:
-                    VStack {
-                        EmptyView()
-                        ProgressView()
-                            .frame(maxWidth: 300)
-                    }
+                    LoadingView()
                 case .loaded(let photos):
                     ScrollView {
                         createHeader("All Topics")
@@ -40,6 +36,7 @@ struct PhotosView: View {
                     }
                 case .failed:
                     Text("An error occured while loading photos")
+                        .foregroundColor(.red)
             }
         }
     }

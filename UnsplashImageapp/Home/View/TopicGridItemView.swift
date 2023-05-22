@@ -21,12 +21,9 @@ struct TopicGridItemView: View {
         AsyncImage(url: URL(string: topic.coverPhoto.urls.small)!) { imagePhase in
             switch imagePhase {
             case .empty:
-                ProgressView()
-                    .frame(width: 200.0, height: 100.0)
+                LoadingView()
             case .failure:
-                Image(systemName: "exclamationmark.triangle")
-                    .resizable()
-                    .scaledToFit()
+                ErrorImageView()
             case .success(let image):
                 image
             @unknown default:

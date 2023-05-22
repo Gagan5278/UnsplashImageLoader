@@ -14,7 +14,9 @@ struct HomeView: View {
             .navigationTitle("Unsplash Image")
             .toolbar {
                 ToolbarItem(placement: ToolbarItemPlacement.navigationBarTrailing) {
-                    Text("hello")
+                    NavigationLink("Search") {
+                        SearchPhotoView(viewModel: SearchPhotoViewModel(service: ApiManager()))
+                    }
                 }
             }
         }

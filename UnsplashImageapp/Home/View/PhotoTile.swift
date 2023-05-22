@@ -9,24 +9,29 @@ import SwiftUI
 
 struct PhotoTile: View {
     let photo: Photo
-    private let deviceWidth = UIScreen.main.bounds.width
 
     var body: some View {
         AsyncImage(url: URL(string: photo.urls.small)) { status in
             switch status {
             case .empty:
-                ProgressView()
-                    .frame(width: deviceWidth/2.0, height: 250)
+                LoadingView()
             case .success(let image):
-                image
-                    .resizable()
-                    .scaledToFit()
-                    .clipShape(RoundedRectangle(cornerRadius: 10.0))
+                NavigationLink {
+                    PhotoDetailView(
+                        viewModel: PhotoDetailViewModel(
+                            photo: photo,
+                            service: ApiManager()
+                        )
+                    )
+                } label: {
+                    image
+                        .resizable()
+                        .scaledToFit()
+                        .clipShape(RoundedRectangle(cornerRadius: 10.0))
+                }
+                .buttonStyle(BouncyStyle())
             case .failure:
-                Image(systemName: "exclamationmark.triangle")
-                    .resizable()
-                    .scaledToFit()
-                    .clipShape(RoundedRectangle(cornerRadius: 10.0))
+                ErrorImageView()
             @unknown default:
                 fatalError()
             }
@@ -36,6 +41,6 @@ struct PhotoTile: View {
 
 struct PhotoTile_Previews: PreviewProvider {
     static var previews: some View {
-        PhotoTile(photo: Photo(id: "1", urls: Urls(raw: "2", full: "2", regular: "2", small: "2", thumb: "2", smallS3: "2"), links: Links(linksSelf: "2", html: "2", download: "2", downloadLocation: "2")))
+        PhotoTile(photo: Photo(id: "1",  urls: Urls(raw: "2", full: "2", regular: "2", small: "2", thumb: "2", smallS3: "2"), description: nil, altDescription: nil, links: Links(linksSelf: "2", html: "2", download: "2", downloadLocation: "2")))
     }
 }

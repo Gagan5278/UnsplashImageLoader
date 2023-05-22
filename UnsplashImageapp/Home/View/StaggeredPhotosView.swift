@@ -27,7 +27,7 @@ struct StaggeredPhotosView: View {
                 } else {
                     secondArray.append(photo)
                 }
-            }Ç
+            }
         }
         splitArray.append(firstArray)
         splitArray.append(secondArray)

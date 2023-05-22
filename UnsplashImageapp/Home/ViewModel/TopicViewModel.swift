@@ -26,7 +26,7 @@ class TopicViewModel: ObservableObject {
     }
     
     func loadTopics() {
-        Task {
+        Task { @MainActor in
             do {
                 if let topics = try await self.service.callService(endPoint: self.endPoint, model: [TopicModel].self) {
                     state = .loaded(topics)

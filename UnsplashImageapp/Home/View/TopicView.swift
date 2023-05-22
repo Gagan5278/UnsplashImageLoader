@@ -11,6 +11,7 @@ struct TopicView: View {
     
     @ObservedObject var topicViewModel: TopicViewModel
     
+    // MARK: -  init
     init(topicViewModel: TopicViewModel) {
         _topicViewModel = ObservedObject(wrappedValue: topicViewModel)
     }

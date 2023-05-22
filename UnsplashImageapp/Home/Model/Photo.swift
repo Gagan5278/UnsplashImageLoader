@@ -10,7 +10,17 @@ import Foundation
 struct Photo: Codable, Identifiable {
     let id: String
     let urls: Urls
+    let description: String?
+    let altDescription: String?
     let links: Links
+    
+    enum CodingKeys: String, CodingKey {
+        case id
+        case urls
+        case description
+        case altDescription = "alt_description"
+        case links
+    }
 }
 
 // MARK: - WelcomeLinks
