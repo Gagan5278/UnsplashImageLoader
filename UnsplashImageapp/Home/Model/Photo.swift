@@ -26,7 +26,7 @@ struct Photo: Codable, Identifiable {
 // MARK: - WelcomeLinks
 struct Links: Codable {
     let linksSelf, html, download, downloadLocation: String
-
+    
     enum CodingKeys: String, CodingKey {
         case linksSelf = "self"
         case html, download

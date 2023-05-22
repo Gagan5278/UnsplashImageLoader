@@ -8,13 +8,13 @@
 import SwiftUI
 
 struct SearchPhotoView: View {
-        
+    
     @ObservedObject private var searchViewModel: SearchPhotoViewModel
     @Environment(\.isSearching) var isSearching: Bool
     
     // MARK: -  init
     init(viewModel: SearchPhotoViewModel) {
-      _searchViewModel = ObservedObject(wrappedValue: viewModel)
+        _searchViewModel = ObservedObject(wrappedValue: viewModel)
     }
     
     var body: some View {
@@ -53,8 +53,8 @@ struct SearchPhotoView: View {
         )
         .navigationTitle("Search photo")
         .navigationBarTitleDisplayMode(.inline)
-
     }
+    
 }
 
 struct SearchView_Previews: PreviewProvider {

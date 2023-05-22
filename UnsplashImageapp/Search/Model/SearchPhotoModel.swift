@@ -10,10 +10,14 @@ import Foundation
 struct SearchPhoto: Codable {
     let total, totalPages: Int
     let results: [Photo]
-
+    
     enum CodingKeys: String, CodingKey {
         case total
         case totalPages = "total_pages"
         case results
     }
+}
+
+extension SearchPhoto {
+    static let dummySearchPhoto: SearchPhoto = JSONLoader.load("dummy.json")
 }

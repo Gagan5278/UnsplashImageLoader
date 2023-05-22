@@ -8,35 +8,36 @@
 import SwiftUI
 
 struct PhotosView: View {
+    
     let topicViewModel = TopicViewModel(service: ApiManager(), endPoint: EndPoint.allTopics)
-   @ObservedObject var photosViewModel = PhotoViewModel(service: ApiManager())
+    @ObservedObject var photosViewModel = PhotoViewModel(service: ApiManager())
     
     var body: some View {
         ZStack {
             Color("BackgroundColor")
                 .ignoresSafeArea()
-                switch photosViewModel.loadingState {
-                case .loading:
-                    LoadingView()
-                case .loaded(let photos):
-                    ScrollView {
-                        createHeader("All Topics")
-                        TopicView(topicViewModel: topicViewModel)
-                            .padding(.leading, 10)
-                            .padding(.trailing, 10)
-                        createHeader("All Photos")
-                        StaggeredPhotosView(photos: photos) {  photo in
-                            guard let lastPhoto = photos.last else {
-                                return
-                            }
-                            if photo.id == lastPhoto.id {
-                                self.photosViewModel.loadPhotos()
-                            }
+            switch photosViewModel.loadingState {
+            case .loading:
+                LoadingView()
+            case .loaded(let photos):
+                ScrollView {
+                    createHeader("All Topics")
+                    TopicView(topicViewModel: topicViewModel)
+                        .padding(.leading, 10)
+                        .padding(.trailing, 10)
+                    createHeader("All Photos")
+                    StaggeredPhotosView(photos: photos) {  photo in
+                        guard let lastPhoto = photos.last else {
+                            return
+                        }
+                        if photo.id == lastPhoto.id {
+                            self.photosViewModel.loadPhotos()
                         }
                     }
-                case .failed:
-                    Text("An error occured while loading photos")
-                        .foregroundColor(.red)
+                }
+            case .failed:
+                Text("An error occured while loading photos")
+                    .foregroundColor(.red)
             }
         }
     }

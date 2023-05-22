@@ -8,15 +8,17 @@
 import SwiftUI
 
 struct PhotoDetailView: View {
+    
     @Environment(\.presentationMode) private var presentationMode: Binding<PresentationMode>
     @ObservedObject private var viewModel: PhotoDetailViewModel
+    private let deviceSize = UIScreen.main.bounds
+    private let downloadButtonWidthHeight: CGFloat = 60.0
     
     // MARK: - init
     init(viewModel: PhotoDetailViewModel) {
         _viewModel = ObservedObject(wrappedValue: viewModel)
     }
     
-    private let deviceSize = UIScreen.main.bounds
     var body: some View {
         AsyncImage(url: URL(string: viewModel.fullURLString)) { status in
             switch status {
@@ -38,16 +40,7 @@ struct PhotoDetailView: View {
                             Text(viewModel.description)
                                 .foregroundColor(.white)
                             Spacer()
-                            Button {
-                                viewModel.downloadPhoto()
-                            } label: {
-                                getImageIcon(for: viewModel.downloadState)
-                            }
-                            .font(.headline)
-                            .frame(width: 56, height: 56)
-                            .background(getColor(for: viewModel.downloadState))
-                            .cornerRadius(28)
-                            .padding()
+                            downloadImageButton
                         }
                         .foregroundColor(.white)
                     }
@@ -60,10 +53,10 @@ struct PhotoDetailView: View {
         }
         .navigationBarTitle("",displayMode: .inline)
         .navigationBarBackButtonHidden(true)
-        .navigationBarItems(leading: backButton)
+        .navigationBarItems(leading: navigationBarBackButton)
     }
     
-    private var backButton: some View {
+    private var navigationBarBackButton: some View {
         Button {
             presentationMode.wrappedValue.dismiss()
         } label: {
@@ -77,7 +70,21 @@ struct PhotoDetailView: View {
         }
     }
     
-    @ViewBuilder func getImageIcon(for state: PhotoDetailViewModel.DownloadImageState) -> some View {
+    private var downloadImageButton: some View {
+        Button {
+            viewModel.downloadPhoto()
+        } label: {
+            getImageIcon(for: viewModel.downloadState)
+        }
+        .font(.headline)
+        .frame(width: downloadButtonWidthHeight, height: downloadButtonWidthHeight)
+        .background(getColor(for: viewModel.downloadState))
+        .cornerRadius(downloadButtonWidthHeight/2)
+        .padding()
+    }
+    
+    @ViewBuilder
+    private func getImageIcon(for state: PhotoDetailViewModel.DownloadImageState) -> some View {
         switch state {
         case .initialized:
             Image(systemName:"arrow.down")
@@ -85,7 +92,10 @@ struct PhotoDetailView: View {
         case .loading:
             ProgressView()
                 .tint(.white)
-                .frame(width: 30, height: 30)
+                .frame(
+                    width: downloadButtonWidthHeight/2,
+                    height: downloadButtonWidthHeight/2
+                )
         case .downloaded:
             Image(systemName: "checkmark.circle.fill")
                 .font(.title)
@@ -95,7 +105,7 @@ struct PhotoDetailView: View {
         }
     }
     
-    func getColor(for state: PhotoDetailViewModel.DownloadImageState) -> Color {
+    private func getColor(for state: PhotoDetailViewModel.DownloadImageState) -> Color {
         switch state {
         case .initialized:
             return Color.gray
@@ -111,6 +121,6 @@ struct PhotoDetailView: View {
 
 struct PhotoDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        PhotoDetailView(viewModel: PhotoDetailViewModel(photo: Photo(id: "1",  urls: Urls(raw: "2", full: "2", regular: "2", small: "2", thumb: "2", smallS3: "2"), description: nil, altDescription: nil, links: Links(linksSelf: "2", html: "2", download: "2", downloadLocation: "2")), service: ApiManager()))
+        PhotoDetailView(viewModel: PhotoDetailViewModel(photo: SearchPhoto.dummySearchPhoto.results.first!, service: ApiManager()))
     }
 }

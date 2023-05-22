@@ -10,15 +10,15 @@ import SwiftUI
 struct HomeView: View {
     var body: some View {
         NavigationView {
-                PhotosView()
-            .navigationTitle("Unsplash Image")
-            .toolbar {
-                ToolbarItem(placement: ToolbarItemPlacement.navigationBarTrailing) {
-                    NavigationLink("Search") {
-                        SearchPhotoView(viewModel: SearchPhotoViewModel(service: ApiManager()))
+            PhotosView()
+                .navigationTitle("Unsplash Image")
+                .toolbar {
+                    ToolbarItem(placement: ToolbarItemPlacement.navigationBarTrailing) {
+                        NavigationLink("Search") {
+                            SearchPhotoView(viewModel: SearchPhotoViewModel(service: ApiManager()))
+                        }
                     }
                 }
-            }
         }
     }
 }

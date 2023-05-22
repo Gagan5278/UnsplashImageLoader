@@ -8,19 +8,12 @@
 import Foundation
 
 class PhotoDetailViewModel: ObservableObject {
-    enum DownloadImageState {
-        case initialized
-        case loading
-        case downloaded
-        case failed
-    }
     
-    let photo: Photo
-    let service: ApiManagerProtocol
+    private let photo: Photo
+    private let service: ApiManagerProtocol
+    private let imageSaver = ImageSaverInAlbum()
     
     @Published public private(set) var downloadState: DownloadImageState = .initialized
-    
-    private let imageSaver = ImageSaverInAlbum()
     
     // MARK: - init
     init(photo: Photo, service: ApiManagerProtocol) {
@@ -58,5 +51,15 @@ class PhotoDetailViewModel: ObservableObject {
                 downloadState = .failed
             }
         }
+    }
+}
+
+// MARK: - DownloadImageState in extension
+extension PhotoDetailViewModel {
+    enum DownloadImageState {
+        case initialized
+        case loading
+        case downloaded
+        case failed
     }
 }

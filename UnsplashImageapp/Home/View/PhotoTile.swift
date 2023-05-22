@@ -41,6 +41,6 @@ struct PhotoTile: View {
 
 struct PhotoTile_Previews: PreviewProvider {
     static var previews: some View {
-        PhotoTile(photo: Photo(id: "1",  urls: Urls(raw: "2", full: "2", regular: "2", small: "2", thumb: "2", smallS3: "2"), description: nil, altDescription: nil, links: Links(linksSelf: "2", html: "2", download: "2", downloadLocation: "2")))
+        PhotoTile(photo: SearchPhoto.dummySearchPhoto.results.first!)
     }
 }

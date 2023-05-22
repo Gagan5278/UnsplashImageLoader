@@ -14,8 +14,8 @@
             filePath = "UnsplashImageapp/PhotoDetail/ViewModel/PhotoDetailViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
             landmarkName = "downloadPhoto()"
             landmarkType = "7">
             <Locations>
@@ -77,8 +77,8 @@
             filePath = "UnsplashImageapp/PhotoDetail/ViewModel/PhotoDetailViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
             landmarkName = "downloadPhoto()"
             landmarkType = "7">
             <Locations>
@@ -133,22 +133,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "662E8A70-0E0A-4085-817F-A018303DDD75"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "UnsplashImageapp/PhotoDetail/View/PhotoDetailView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
-            landmarkName = "body"
-            landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "918E0DF9-C266-4FB9-AC8D-39B66DA50511"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -156,8 +140,8 @@
             filePath = "UnsplashImageapp/PhotoDetail/View/PhotoDetailView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "90"
-            endingLineNumber = "90"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
             landmarkName = "getImageIcon(for:)"
             landmarkType = "7">
             <Locations>
@@ -204,8 +188,8 @@
             filePath = "UnsplashImageapp/PhotoDetail/View/PhotoDetailView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "93"
-            endingLineNumber = "93"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
             landmarkName = "getImageIcon(for:)"
             landmarkType = "7">
             <Locations>
@@ -252,8 +236,8 @@
             filePath = "UnsplashImageapp/PhotoDetail/View/PhotoDetailView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "83"
-            endingLineNumber = "83"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
             landmarkName = "getImageIcon(for:)"
             landmarkType = "7">
             <Locations>
@@ -300,8 +284,8 @@
             filePath = "UnsplashImageapp/PhotoDetail/ViewModel/PhotoDetailViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
             landmarkName = "downloadPhoto()"
             landmarkType = "7">
          </BreakpointContent>

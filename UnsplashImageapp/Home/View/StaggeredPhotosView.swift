@@ -8,12 +8,13 @@
 import SwiftUI
 
 struct StaggeredPhotosView: View {
+    
     let photos: [Photo]
     let onAppearCompletionHandler: ((Photo) -> Void)?
     
-    
     private let paddingConstant: CGFloat = 10.0
     
+    /// Create a two dimension array of Photo
     private var splittedArray: [[Photo]] {
         var splitArray: [[Photo]] = []
         

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct BouncyStyle: ButtonStyle {
- func makeBody(configuration: Configuration) -> some View {
+    func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .frame(maxWidth: .infinity)
             .scaleEffect(configuration.isPressed ? 0.9 : 1)

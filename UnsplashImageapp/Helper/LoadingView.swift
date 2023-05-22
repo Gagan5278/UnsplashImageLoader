@@ -9,7 +9,7 @@ import SwiftUI
 
 struct LoadingView: View {
     private let deviceWidth = UIScreen.main.bounds.width
-
+    
     var body: some View {
         VStack {
             Spacer()
