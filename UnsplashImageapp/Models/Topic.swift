@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct TopicModel: Codable, Identifiable {
+struct Topic: Codable, Identifiable {
     let id: String
     let title: String
     let totalPhotos: Int
@@ -24,12 +24,3 @@ struct CoverPhoto: Codable {
     let urls: Urls
 }
 
-struct Urls: Codable {
-    let raw, full, regular, small: String
-    let thumb, smallS3: String
-    
-    enum CodingKeys: String, CodingKey {
-        case raw, full, regular, small, thumb
-        case smallS3 = "small_s3"
-    }
-}

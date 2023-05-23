@@ -8,7 +8,10 @@
 import SwiftUI
 
 struct TopicGridItemView: View {
-    let topic: TopicModel
+    let topic: Topic
+    
+    private let heightConstant: CGFloat = 100.0
+    
     var body: some View {
         ZStack {
             imageViewAsync
@@ -31,8 +34,8 @@ struct TopicGridItemView: View {
             }
         }
         .overlay(Color.gray.opacity(0.4))
-        .frame(maxHeight: 100)
-        .frame(maxWidth: 200)
+        .frame(maxHeight: heightConstant)
+        .frame(maxWidth: 2*heightConstant)
     }
     
     private var topicInfoView: some View {
@@ -51,6 +54,6 @@ struct TopicGridItemView: View {
 
 struct TopicGridItemView_Previews: PreviewProvider {
     static var previews: some View {
-        TopicGridItemView(topic: TopicModel(id: "1", title: "Some title", totalPhotos: 2, coverPhoto: CoverPhoto(id: "12", urls: Urls(raw: "", full: SearchPhoto.dummySearchPhoto.results.first!.urls.small, regular: SearchPhoto.dummySearchPhoto.results.first!.urls.small, small: SearchPhoto.dummySearchPhoto.results.first!.urls.small, thumb: "", smallS3: ""))))
+        TopicGridItemView(topic: Topic(id: "1", title: "Some title", totalPhotos: 2, coverPhoto: CoverPhoto(id: "12", urls: Urls(raw: "", full: SearchPhoto.dummySearchPhoto.results.first!.urls.small, regular: SearchPhoto.dummySearchPhoto.results.first!.urls.small, small: SearchPhoto.dummySearchPhoto.results.first!.urls.small, thumb: "", smallS3: ""))))
     }
 }

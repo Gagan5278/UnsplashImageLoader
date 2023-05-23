@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D1340772A1D049E008BB3E7 /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1340762A1D049E008BB3E7 /* Urls.swift */; };
 		5D53169B2A14039000545036 /* UnsplashImageappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D53169A2A14039000545036 /* UnsplashImageappApp.swift */; };
 		5D53169D2A14039000545036 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D53169C2A14039000545036 /* HomeView.swift */; };
 		5D53169F2A14039200545036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D53169E2A14039200545036 /* Assets.xcassets */; };
@@ -14,7 +15,7 @@
 		5D5316AC2A14039200545036 /* UnsplashImageappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5316AB2A14039200545036 /* UnsplashImageappTests.swift */; };
 		5D5316B62A14039200545036 /* UnsplashImageappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5316B52A14039200545036 /* UnsplashImageappUITests.swift */; };
 		5D5316B82A14039200545036 /* UnsplashImageappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5316B72A14039200545036 /* UnsplashImageappUITestsLaunchTests.swift */; };
-		5D5316C82A14060300545036 /* TopicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5316C72A14060300545036 /* TopicModel.swift */; };
+		5D5316C82A14060300545036 /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5316C72A14060300545036 /* Topic.swift */; };
 		5D5316CA2A14072800545036 /* TopicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5316C92A14072800545036 /* TopicView.swift */; };
 		5D5316CD2A14074400545036 /* TopicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5316CC2A14074400545036 /* TopicViewModel.swift */; };
 		5D5316D02A1407B300545036 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5316CF2A1407B300545036 /* ApiManager.swift */; };
@@ -29,7 +30,7 @@
 		5D5316E62A151BF300545036 /* PhotoTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5316E52A151BF300545036 /* PhotoTile.swift */; };
 		5D5316EA2A1AC5C500545036 /* SearchPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5316E92A1AC5C500545036 /* SearchPhotoView.swift */; };
 		5D5316ED2A1ACA2100545036 /* SearchPhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5316EC2A1ACA2100545036 /* SearchPhotoViewModel.swift */; };
-		5D5316F02A1AD46E00545036 /* SearchPhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5316EF2A1AD46E00545036 /* SearchPhotoModel.swift */; };
+		5D5316F02A1AD46E00545036 /* SearchPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5316EF2A1AD46E00545036 /* SearchPhoto.swift */; };
 		5D5316F42A1B64A800545036 /* PhotoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5316F32A1B64A800545036 /* PhotoDetailView.swift */; };
 		5D5316F72A1B64C100545036 /* PhotoDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5316F62A1B64C100545036 /* PhotoDetailViewModel.swift */; };
 		5D5316FA2A1B698700545036 /* BounceButton+ViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5316F92A1B698700545036 /* BounceButton+ViewModifier.swift */; };
@@ -58,6 +59,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D1340762A1D049E008BB3E7 /* Urls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Urls.swift; sourceTree = "<group>"; };
 		5D5316972A14039000545036 /* UnsplashImageapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnsplashImageapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D53169A2A14039000545036 /* UnsplashImageappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashImageappApp.swift; sourceTree = "<group>"; };
 		5D53169C2A14039000545036 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -68,7 +70,7 @@
 		5D5316B12A14039200545036 /* UnsplashImageappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnsplashImageappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D5316B52A14039200545036 /* UnsplashImageappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashImageappUITests.swift; sourceTree = "<group>"; };
 		5D5316B72A14039200545036 /* UnsplashImageappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashImageappUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		5D5316C72A14060300545036 /* TopicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicModel.swift; sourceTree = "<group>"; };
+		5D5316C72A14060300545036 /* Topic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
 		5D5316C92A14072800545036 /* TopicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicView.swift; sourceTree = "<group>"; };
 		5D5316CC2A14074400545036 /* TopicViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicViewModel.swift; sourceTree = "<group>"; };
 		5D5316CF2A1407B300545036 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
@@ -83,7 +85,7 @@
 		5D5316E52A151BF300545036 /* PhotoTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTile.swift; sourceTree = "<group>"; };
 		5D5316E92A1AC5C500545036 /* SearchPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPhotoView.swift; sourceTree = "<group>"; };
 		5D5316EC2A1ACA2100545036 /* SearchPhotoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPhotoViewModel.swift; sourceTree = "<group>"; };
-		5D5316EF2A1AD46E00545036 /* SearchPhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPhotoModel.swift; sourceTree = "<group>"; };
+		5D5316EF2A1AD46E00545036 /* SearchPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPhoto.swift; sourceTree = "<group>"; };
 		5D5316F32A1B64A800545036 /* PhotoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailView.swift; sourceTree = "<group>"; };
 		5D5316F62A1B64C100545036 /* PhotoDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewModel.swift; sourceTree = "<group>"; };
 		5D5316F92A1B698700545036 /* BounceButton+ViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BounceButton+ViewModifier.swift"; sourceTree = "<group>"; };
@@ -119,6 +121,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D1340712A1D01EE008BB3E7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5D5316EC2A1ACA2100545036 /* SearchPhotoViewModel.swift */,
+				5D5316CC2A14074400545036 /* TopicViewModel.swift */,
+				5D5316DD2A14C74500545036 /* PhotoViewModel.swift */,
+				5D5316F62A1B64C100545036 /* PhotoDetailViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5D1340722A1D01F5008BB3E7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5D5316C72A14060300545036 /* Topic.swift */,
+				5D5316DB2A14C23900545036 /* Photo.swift */,
+				5D5316EF2A1AD46E00545036 /* SearchPhoto.swift */,
+				5D1340762A1D049E008BB3E7 /* Urls.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5D1340732A1D0275008BB3E7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5D1340752A1D0344008BB3E7 /* Photos */,
+				5D5316E72A1AC5B300545036 /* Search */,
+				5D5316F12A1B649600545036 /* PhotoDetail */,
+				5D1340742A1D02D9008BB3E7 /* Common */,
+				5D53169C2A14039000545036 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5D1340742A1D02D9008BB3E7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5D5316E52A151BF300545036 /* PhotoTile.swift */,
+				5D5316E32A15178700545036 /* StaggeredPhotosView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5D1340752A1D0344008BB3E7 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				5D5316C92A14072800545036 /* TopicView.swift */,
+				5D5316D92A141BBF00545036 /* TopicGridItemView.swift */,
+				5D5316E12A14CE2F00545036 /* PhotosView.swift */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
 		5D53168E2A14039000545036 = {
 			isa = PBXGroup;
 			children = (
@@ -142,12 +197,12 @@
 		5D5316992A14039000545036 /* UnsplashImageapp */ = {
 			isa = PBXGroup;
 			children = (
-				5D5316F82A1B697100545036 /* Helper */,
-				5D5316F12A1B649600545036 /* PhotoDetail */,
-				5D5316E72A1AC5B300545036 /* Search */,
 				5D5316CE2A1407A900545036 /* Service */,
-				5D5316C52A1405DC00545036 /* Home */,
-				5D53169A2A14039000545036 /* UnsplashImageappApp.swift */,
+				5D5316F82A1B697100545036 /* Helper */,
+				5D1340722A1D01F5008BB3E7 /* Models */,
+				5D1340712A1D01EE008BB3E7 /* ViewModels */,
+				5D1340732A1D0275008BB3E7 /* Views */,
+				5D5316C52A1405DC00545036 /* System */,
 				5D53169E2A14039200545036 /* Assets.xcassets */,
 				5D5316A02A14039200545036 /* Preview Content */,
 			);
@@ -179,45 +234,12 @@
 			path = UnsplashImageappUITests;
 			sourceTree = "<group>";
 		};
-		5D5316C42A14044A00545036 /* View */ = {
+		5D5316C52A1405DC00545036 /* System */ = {
 			isa = PBXGroup;
 			children = (
-				5D53169C2A14039000545036 /* HomeView.swift */,
-				5D5316C92A14072800545036 /* TopicView.swift */,
-				5D5316D92A141BBF00545036 /* TopicGridItemView.swift */,
-				5D5316E12A14CE2F00545036 /* PhotosView.swift */,
-				5D5316E32A15178700545036 /* StaggeredPhotosView.swift */,
-				5D5316E52A151BF300545036 /* PhotoTile.swift */,
+				5D53169A2A14039000545036 /* UnsplashImageappApp.swift */,
 			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		5D5316C52A1405DC00545036 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				5D5316CB2A14073900545036 /* ViewModel */,
-				5D5316C62A1405F600545036 /* Model */,
-				5D5316C42A14044A00545036 /* View */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		5D5316C62A1405F600545036 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				5D5316C72A14060300545036 /* TopicModel.swift */,
-				5D5316DB2A14C23900545036 /* Photo.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		5D5316CB2A14073900545036 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				5D5316CC2A14074400545036 /* TopicViewModel.swift */,
-				5D5316DD2A14C74500545036 /* PhotoViewModel.swift */,
-			);
-			path = ViewModel;
+			path = System;
 			sourceTree = "<group>";
 		};
 		5D5316CE2A1407A900545036 /* Service */ = {
@@ -234,60 +256,17 @@
 		5D5316E72A1AC5B300545036 /* Search */ = {
 			isa = PBXGroup;
 			children = (
-				5D5316EE2A1AD46300545036 /* Model */,
-				5D5316EB2A1ACA1300545036 /* ViewModel */,
-				5D5316E82A1AC5BC00545036 /* View */,
-			);
-			path = Search;
-			sourceTree = "<group>";
-		};
-		5D5316E82A1AC5BC00545036 /* View */ = {
-			isa = PBXGroup;
-			children = (
 				5D5316E92A1AC5C500545036 /* SearchPhotoView.swift */,
 			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		5D5316EB2A1ACA1300545036 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				5D5316EC2A1ACA2100545036 /* SearchPhotoViewModel.swift */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		5D5316EE2A1AD46300545036 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				5D5316EF2A1AD46E00545036 /* SearchPhotoModel.swift */,
-			);
-			path = Model;
+			path = Search;
 			sourceTree = "<group>";
 		};
 		5D5316F12A1B649600545036 /* PhotoDetail */ = {
 			isa = PBXGroup;
 			children = (
-				5D5316F52A1B64B800545036 /* ViewModel */,
-				5D5316F22A1B649F00545036 /* View */,
-			);
-			path = PhotoDetail;
-			sourceTree = "<group>";
-		};
-		5D5316F22A1B649F00545036 /* View */ = {
-			isa = PBXGroup;
-			children = (
 				5D5316F32A1B64A800545036 /* PhotoDetailView.swift */,
 			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		5D5316F52A1B64B800545036 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				5D5316F62A1B64C100545036 /* PhotoDetailViewModel.swift */,
-			);
-			path = ViewModel;
+			path = PhotoDetail;
 			sourceTree = "<group>";
 		};
 		5D5316F82A1B697100545036 /* Helper */ = {
@@ -445,11 +424,11 @@
 				5D5316ED2A1ACA2100545036 /* SearchPhotoViewModel.swift in Sources */,
 				5D5316DA2A141BBF00545036 /* TopicGridItemView.swift in Sources */,
 				5D5317052A1C018E00545036 /* JSONLoader.swift in Sources */,
-				5D5316F02A1AD46E00545036 /* SearchPhotoModel.swift in Sources */,
+				5D5316F02A1AD46E00545036 /* SearchPhoto.swift in Sources */,
 				5D53169B2A14039000545036 /* UnsplashImageappApp.swift in Sources */,
 				5D5316FA2A1B698700545036 /* BounceButton+ViewModifier.swift in Sources */,
 				5D5316E22A14CE2F00545036 /* PhotosView.swift in Sources */,
-				5D5316C82A14060300545036 /* TopicModel.swift in Sources */,
+				5D5316C82A14060300545036 /* Topic.swift in Sources */,
 				5D5316D02A1407B300545036 /* ApiManager.swift in Sources */,
 				5D5316DC2A14C23900545036 /* Photo.swift in Sources */,
 				5D5316F72A1B64C100545036 /* PhotoDetailViewModel.swift in Sources */,
@@ -457,6 +436,7 @@
 				5D5316D22A140A8C00545036 /* EndPoint.swift in Sources */,
 				5D5316CD2A14074400545036 /* TopicViewModel.swift in Sources */,
 				5D5316D62A140D9300545036 /* APIError.swift in Sources */,
+				5D1340772A1D049E008BB3E7 /* Urls.swift in Sources */,
 				5D5316F42A1B64A800545036 /* PhotoDetailView.swift in Sources */,
 				5D5316FC2A1B6C4400545036 /* LoadingView.swift in Sources */,
 			);

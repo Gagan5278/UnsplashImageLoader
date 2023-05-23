@@ -61,12 +61,12 @@ struct PhotoDetailView: View {
             presentationMode.wrappedValue.dismiss()
         } label: {
             HStack(alignment: .center, spacing: 10) {
-                Image(systemName: "arrow.left")
-                    .foregroundColor(.white)
+                Image(systemName: "chevron.backward")
                 Text(viewModel.navTitle)
-                    .foregroundColor(.white)
                 Spacer()
             }
+            .font(.headline)
+            .foregroundColor(.white)
         }
     }
     

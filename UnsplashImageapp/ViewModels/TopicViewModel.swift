@@ -10,7 +10,7 @@ import Foundation
 class TopicViewModel: ObservableObject {
     enum TopicState {
         case loading
-        case loaded([TopicModel])
+        case loaded([Topic])
         case failed
     }
     
@@ -28,7 +28,7 @@ class TopicViewModel: ObservableObject {
     func loadTopics() {
         Task { @MainActor in
             do {
-                if let topics = try await self.service.callService(endPoint: self.endPoint, model: [TopicModel].self) {
+                if let topics = try await self.service.callService(endPoint: self.endPoint, model: [Topic].self) {
                     state = .loaded(topics)
                 } else {
                     state = .failed

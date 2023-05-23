@@ -50,8 +50,8 @@ struct StaggeredPhotosView: View {
                 }
             }
         }
-        .padding(.leading, 10)
-        .padding(.trailing, 10)
+        .padding(.leading, paddingConstant)
+        .padding(.trailing, paddingConstant)
     }
     
     private func onAppearClosure(_ photo: Photo) {
@@ -64,6 +64,6 @@ struct StaggeredPhotosView: View {
 
 struct StaggeredPhotosView_Previews: PreviewProvider {
     static var previews: some View {
-        StaggeredPhotosView(photos: [], onAppearCompletionHandler: { _ in })
+        StaggeredPhotosView(photos: SearchPhoto.dummySearchPhoto.results, onAppearCompletionHandler: { _ in })
     }
 }
