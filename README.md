@@ -1,4 +1,4 @@
-# UnsplashImageLoader
+# UnsplashImageLoader SWIFTUI
 ### An example app written in SwiftUI for displaying images from Unsplash API and displaying in Grid.
 
 ## Key Features: 
